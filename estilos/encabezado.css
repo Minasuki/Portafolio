@@ -46,46 +46,12 @@ display: flex;
 justify-content: space-between;
 }
 
-/*Sección Title*/
-
-section.title{
-
+.menu__header{
+    display: flex;
 }
 
-/*Sección About*/
-
-section.about{
-
-}
-
-/*Sección Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-
-}
-
-/* experiencia*/
-
-section.experience{
-
-}
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
+.menu__list{
+    display: flex;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
