@@ -1,28 +1,30 @@
-
-section.title{
-
+.title {display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    
+    
 }
-
+.title__profile{
+    float: right;
+}
 /*Sección About*/
 
-section.about{
-
-}
+section.about {}
 
 /*Sección Hobbies*/
 
-section.hobbies{
-    
-}
+section.hobbies {}
 
 /* Experiencia Académica*/
 
-section.academic{
-
-}
+section.academic {}
 
 /* experiencia*/
 
-section.experience{
-
-}
+section.experience {}
