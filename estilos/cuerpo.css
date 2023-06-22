@@ -39,19 +39,22 @@
     padding: 16px;
 }
 
-/*Sección About*/
+/*-----------               Sección About     ---------*/
 
 .about {
     background-color: #EAF2FD;
+    margin: 1.5% 0;
 }
 
 .about__container {
     display: flex;
     width: 80%;
+    height: 300px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
     flex-direction: column;
+    justify-content: center;
 }
 
 .about__title {
@@ -62,7 +65,7 @@
     width: 60%;
 }
 
-/*Sección Hobbies*/
+/*---------              Sección Hobbies        ------------*/
 
 section.hobbies {}
 
