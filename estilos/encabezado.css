@@ -55,10 +55,9 @@ https://en.bem.info/methodology/quick-start/*/
       height: 100%;
       align-items: center;
       justify-content: space-between;
-      width: 90%;
+      width: 80%;
       max-width: 1200px;
       margin: 0 auto;
-      overflow: hidden;
       padding: 0;
   }
 
