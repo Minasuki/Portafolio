@@ -1,0 +1,23 @@
+.about {
+    background-color: #EAF2FD;
+    margin: 1.5% 0;
+}
+
+.about__container {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__title {
+    font-weight: bold;
+}
+
+.about__paragraph {
+    width: 60%;
+}

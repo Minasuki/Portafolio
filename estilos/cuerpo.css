@@ -1,69 +1,4 @@
-.title {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
-}
 
-.title__div {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
-.title__container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.title__bio {
-    font-size: xx-large;
-    font-weight: bold;
-    margin: 1rem;
-}
-
-.title__subsection {
-    font-size: large;
-    margin: 1rem;
-}
-
-.title__network {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    padding: 16px;
-}
-
-/*-----------               Sección About     ---------*/
-
-.about {
-    background-color: #EAF2FD;
-    margin: 1.5% 0;
-}
-
-.about__container {
-    display: flex;
-    width: 80%;
-    height: 300px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.about__title {
-    font-weight: bold;
-}
-
-.about__paragraph {
-    width: 60%;
-}
 
 /*---------              Sección Hobbies        ------------*/
 
@@ -76,3 +11,28 @@ section.academic {}
 /* experiencia*/
 
 section.experience {}
+
+/*.skills-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills-skill {
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  padding: 0.5em 0.7em;
+  margin: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}*/

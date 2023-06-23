@@ -1,0 +1,40 @@
+.title {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title__div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.title__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title__bio {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.title__subsection {
+    font-size: large;
+    margin: 1rem;
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 16px;
+}
