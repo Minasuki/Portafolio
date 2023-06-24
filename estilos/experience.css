@@ -1,14 +1,26 @@
-.experience{
-    margin: 1.5% 0;
-    width: 80%;
-    max-width: 1200px;
+.experience {
+    width: 100%;
+    left: 100%;
+}
+
+.experience__section__title {
+    display: flex;
+    justify-content: center;
+}
+
+.experience__box{
+    display: flex;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
-    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
 }
 
-.experience__section__title{
-    display: flex;
-    justify-content: center;
+.experience__title{
+    font-weight: bold;
+}
+
+.experience__text{
+    font-size: large;
 }
