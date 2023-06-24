@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans+JP:wght@300&family=Open+Sans:wght@300;400;700&display=swap');
 
 .academic {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-    margin-top: 5em;
+    background-color: #EAF2FD;
+    width: 100%;
+    height: 100%;
+    margin: 10% 0;
+    
 }
 
 .academic__title {
@@ -15,11 +13,12 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .academic__courses {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .academic__courses__list {
@@ -31,7 +30,7 @@
 }
 
 .academic__courses__item__img {
-    padding: 30px 30px;
+    padding: 60px 60px;
     border: 0;
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -40,7 +39,7 @@
 
 .academic__courses__item__img img{
      max-width: 200px;
-    max-height: 160px; 
+    max-height: 180px; 
     object-fit: cover;
 }
 
@@ -52,5 +51,5 @@
 .academic__courses__item__img--max{
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 75%;
 }

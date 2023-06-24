@@ -1,0 +1,10 @@
+.experience{
+    background-color: #5da972; 
+    margin: 1.5% 0;
+    width: 80%;
+    max-width: 1200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin-top: 5em;
+}
