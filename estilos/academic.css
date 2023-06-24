@@ -25,6 +25,9 @@
 .academic__courses__list {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
 }
 
 .academic__courses__item__img {
@@ -36,12 +39,18 @@
 }
 
 .academic__courses__item__img img{
-     max-width: 195px;
-    max-height: 140px; 
+     max-width: 200px;
+    max-height: 160px; 
     object-fit: cover;
 }
 
 .academic__courses__box:hover,
 .academic__courses__box:focus {
     transform: translateY(-6px);
+}
+
+.academic__courses__item__img--max{
+    display: flex;
+    align-items: center;
+    height: 70%;
 }
