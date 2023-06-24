@@ -5,12 +5,14 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
+    margin-top: 5em;
 }
 
 .hobbies__line {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .hobbies__box {
@@ -19,6 +21,15 @@
     background-color: rgb(255, 255, 255);
     position: relative;
     text-align: justify;
+    margin-right: 1em;
+}
+
+.hobbies__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
 }
 
 .hobbies__img {

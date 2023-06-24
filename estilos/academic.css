@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans+JP:wght@300&family=Open+Sans:wght@300;400;700&display=swap');
+
+.academic {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin-top: 5em;
+}
+
+.academic__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.academic__courses__item__img {
+    padding: 30px 30px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+
+.academic__courses__item__img img{
+     max-width: 195px;
+    max-height: 140px; 
+    object-fit: cover;
+}
+
+.academic__courses__box:hover,
+.academic__courses__box:focus {
+    transform: translateY(-6px);
+}
