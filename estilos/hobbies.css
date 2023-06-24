@@ -10,9 +10,8 @@
 
 .hobbies__line {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .hobbies__box {
@@ -21,7 +20,7 @@
     background-color: rgb(255, 255, 255);
     position: relative;
     text-align: justify;
-    margin-right: 2em;
+    margin: 1em;
 }
 
 .hobbies__title {
