@@ -28,6 +28,8 @@
 
 .experience__img {
     margin: 2em;
+    width: 50%;
+    height: 50%;
 }
 
 .btn {
