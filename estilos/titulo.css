@@ -4,9 +4,6 @@
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
 }
 
 .title__div {
@@ -37,4 +34,43 @@
     justify-content: space-between;
     width: 70%;
     padding: 16px;
+}
+
+@media (min-width: 768px) {
+
+    /* Menú */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sección sobre mi*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
 }

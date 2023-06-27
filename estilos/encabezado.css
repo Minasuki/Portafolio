@@ -46,16 +46,14 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
+main{
+    background-color: rgb(252, 244, 235);
+}
 
 .menu {
     display: flex;
-    height: 100%;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
 }
 
 .menu__list {

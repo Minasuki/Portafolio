@@ -1,10 +1,7 @@
 .skills {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
+    margin: 10rem auto;
 }
 
 .skills__title {
@@ -28,7 +25,6 @@
     position: relative;
     text-align: justify;
     margin: 1em;
-
     flex-wrap: nowrap;
 }
 
@@ -43,4 +39,43 @@
 .skills__box:hover,
 .skills__box:focus {
     transform: translateY(-6px);
+}
+
+@media (min-width: 768px) {
+
+    /* Menú */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sección sobre mi*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
 }
