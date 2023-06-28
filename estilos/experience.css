@@ -138,6 +138,22 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .experience__section__title{
+        font-size: x-large;
+    }
+
+    .experience__title{
+        font-size: large;
+    }
+
+    .experience__text{
+        font-size: medium;
+    }
+
+    .btn{
+        font-size:medium;
+    }
 }
 
 /*Mobile*/

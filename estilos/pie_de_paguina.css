@@ -82,37 +82,55 @@
     display: flex;
     justify-content: center;
 }
-.footer__rodape{
+
+.footer__rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 @media (max-width: 768px) {
-    .hobbies__title{
-        height: 1.5rem;
+
+    .formcontato {
+        width: 95%;
     }
-        }
-        
-        /*Mobile*/
-        @media (max-width: 425px) {
-        
-            /*Menu*/
-        
-            /*Titulo*/
-        
-            /*Sección sobre mi*/
-        
-            /*Skills*/
-        
-            /*Hobbies*/
-        
-            /*Formación Académica*/
-        
-            /*Experiencia Profesional*/
-        
-            /*Contacto*/
-        
-            /*Footer*/
-        
-        }
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .formcontato__contacto {
+        width: 100%;
+    }
+
+    .formcontato__text{
+        width: 90%;
+    }
+
+    .formcontato__title{
+        font-size: large;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sección sobre mi*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
+}

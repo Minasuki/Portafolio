@@ -13,7 +13,9 @@
     flex-direction: row-reverse;
     width: 80%;
 }
-
+.title__profile{
+    border-radius: 50%;
+}
 .title__container {
     display: flex;
     align-items: center;
