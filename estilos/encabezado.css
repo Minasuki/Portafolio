@@ -53,8 +53,8 @@ main{
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: nowrap;
     width: 100%;
 }
 
@@ -93,6 +93,8 @@ Utiliza las referencias de los breakpoints @media abajo */
     /* Menú */
 .menu{
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 .menu__list__item__contato{
     margin: 1.2rem;
@@ -100,15 +102,6 @@ Utiliza las referencias de los breakpoints @media abajo */
 .menu__list__item{
     display: none;
 }
-    /*title*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
 
 }
 
