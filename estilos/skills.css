@@ -42,18 +42,9 @@
 }
 
 @media (min-width: 768px) {
-
-    /* Menú */
-
-    /*title*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
+.skills__title{
+    font-size: x-large;
+}
 
 }
 

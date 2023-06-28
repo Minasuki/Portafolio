@@ -55,9 +55,10 @@
 
     .title__subsection {
         font-size: large;
-margin-bottom: 0;
+        margin-bottom: 0;
     }
-    .title__network{
+
+    .title__network {
         width: 80%;
         justify-content: space-between;
     }

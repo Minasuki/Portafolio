@@ -31,9 +31,12 @@
         display: flex;
         justify-content: center;
     }
-
+.about__title{
+    font-size: x-large;
+}
     .about__paragraph {
         width: 100%;
+        font-size: large;
     }
 
 }
