@@ -53,9 +53,43 @@
 
 
 @media (max-width: 768px) {
+
     .academic {
         border: 0;
     }
+
+    .academic__courses {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .academic__courses__list {
+        width: 80%;
+        height: 60%;
+        margin: 0;
+    }
+
+    .academic__courses__box {
+        margin: 0;
+        width: 30%;
+        height: 10%;
+    }
+
+    .academic__courses__item__img img {
+        max-width: 80px;
+        max-height: 60px;
+    }
+
+    .academic__courses__item__img {
+        padding: 40px 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .academic__courses__item__img--max {
+        border: 0;
+    }
+
 }
 
 /*Mobile*/
