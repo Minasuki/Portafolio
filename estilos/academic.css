@@ -18,6 +18,13 @@
     justify-content: center;
 }
 
+.academic__courses__box {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 118px;
+}
+
 .academic__courses__list {
     display: flex;
     flex-direction: column;
@@ -27,7 +34,7 @@
 }
 
 .academic__courses__item__img {
-    padding: 60px 60px;
+    height: 118px;
     border: 0;
     background-color: rgb(255, 255, 255);
     position: relative;
@@ -60,7 +67,9 @@
 
     .academic__courses {
         width: 100%;
-        justify-content: space-evenly;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
     }
 
     .academic__courses__list {
