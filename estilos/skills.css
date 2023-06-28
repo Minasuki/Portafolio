@@ -13,19 +13,18 @@
 }
 
 .skills__line {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
 }
 
 .skills__box {
-    padding: 30px 30px;
+    height: 118px;
     border: 0;
     background-color: rgb(255, 255, 255);
-    position: relative;
-    text-align: justify;
-    margin: 1em;
-    flex-wrap: nowrap;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 32px;
 }
 
 .skills__img {
