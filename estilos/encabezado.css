@@ -46,7 +46,7 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
-main{
+main {
     background-color: rgb(238, 241, 240);
 }
 
@@ -91,20 +91,25 @@ Utiliza las referencias de los breakpoints @media abajo */
 @media (max-width: 768px) {
 
     /* Menú */
-.menu{
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-}
-.menu__list__item__contato{
-    margin: 1.2rem;
-}
-.menu__list__item{
-    display: none;
-}
-.menu__title, .menu__list__item__contato{
-    font-size: large;
-}
+    .menu {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu__list__item__contato {
+        margin: 1.2rem;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
+
+    .menu__title,
+    .menu__list__item__contato {
+        font-size: large;
+    }
+
 }
 
 /*Mobile*/
@@ -129,6 +134,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Footer*/
 
 }
+
 /*const loadindData = estado => {
     const loading = document.getElementById('loading');
     if (estado) {

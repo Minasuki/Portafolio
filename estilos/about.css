@@ -23,18 +23,18 @@
 }
 
 @media (min-width: 768px) {
+    .about__container {
+        width: 95%;
+    }
 
-    /* Menú */
+    .about__title {
+        display: flex;
+        justify-content: center;
+    }
 
-    /*title*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
+    .about__paragraph {
+        width: 100%;
+    }
 
 }
 
