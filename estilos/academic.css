@@ -90,6 +90,17 @@
         border: 0;
     }
 
+    .academic__title {
+        font-size: x-large;
+    }
+
+    .academic__courses__item__title {
+        font-size: small;
+    }
+
+    .academic__courses__item__subtitle {
+        font-size: small;
+    }
 }
 
 /*Mobile*/
