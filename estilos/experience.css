@@ -118,41 +118,31 @@
     }
 }
 
-@media (min-width: 768px) {
-
-    /* Menú */
-
-    /*title*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
-    /*Menu*/
-
-    /*Titulo*/
-
-    /*Sección sobre mi*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
-
-}
+@media (max-width: 768px) {
+    .hobbies__title{
+        height: 1.5rem;
+    }
+        }
+        
+        /*Mobile*/
+        @media (max-width: 425px) {
+        
+            /*Menu*/
+        
+            /*Titulo*/
+        
+            /*Sección sobre mi*/
+        
+            /*Skills*/
+        
+            /*Hobbies*/
+        
+            /*Formación Académica*/
+        
+            /*Experiencia Profesional*/
+        
+            /*Contacto*/
+        
+            /*Footer*/
+        
+        }

@@ -50,3 +50,33 @@
     align-items: center;
     height: 75%;
 }
+
+
+@media (max-width: 768px) {
+    .academic {
+        border: 0;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sección sobre mi*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formación Académica*/
+
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
+}

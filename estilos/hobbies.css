@@ -2,12 +2,12 @@
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 .hobbies__line {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
 }
 
@@ -40,3 +40,33 @@
 .hobbies__box:focus {
     transform: translateY(-6px);
 }
+
+
+@media (max-width: 768px) {
+.hobbies__title{
+    height: 1.5rem;
+}
+    }
+    
+    /*Mobile*/
+    @media (max-width: 425px) {
+    
+        /*Menu*/
+    
+        /*Titulo*/
+    
+        /*Sección sobre mi*/
+    
+        /*Skills*/
+    
+        /*Hobbies*/
+    
+        /*Formación Académica*/
+    
+        /*Experiencia Profesional*/
+    
+        /*Contacto*/
+    
+        /*Footer*/
+    
+    }

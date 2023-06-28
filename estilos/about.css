@@ -22,7 +22,7 @@
     width: 60%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .about__container {
         width: 95%;
     }
@@ -42,7 +42,7 @@
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 425px) {
 
     /*Menu*/
 

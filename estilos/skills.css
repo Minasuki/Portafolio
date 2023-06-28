@@ -41,15 +41,16 @@
     transform: translateY(-6px);
 }
 
-@media (min-width: 768px) {
-.skills__title{
+@media (max-width: 768px) {
+
+    .skills__title{
     font-size: x-large;
 }
 
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 425px) {
 
     /*Menu*/
 
