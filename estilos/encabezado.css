@@ -102,7 +102,9 @@ Utiliza las referencias de los breakpoints @media abajo */
 .menu__list__item{
     display: none;
 }
-
+.menu__title .menu__list__item__contato{
+    font-size: large;
+}
 }
 
 /*Mobile*/
