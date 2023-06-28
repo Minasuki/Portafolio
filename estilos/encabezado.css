@@ -47,13 +47,15 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 main{
-    background-color: rgb(252, 244, 235);
+    background-color: rgb(238, 241, 240);
 }
 
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .menu__list {
@@ -86,10 +88,18 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     /* Menú */
-
+.menu{
+    flex-direction: row;
+}
+.menu__list__item__contato{
+    margin: 1.2rem;
+}
+.menu__list__item{
+    display: none;
+}
     /*title*/
 
     /*Skills*/
@@ -124,3 +134,11 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Footer*/
 
 }
+/*const loadindData = estado => {
+    const loading = document.getElementById('loading');
+    if (estado) {
+        loading.classList.remove('d-none');
+    } else {
+        loading.classList.add('d-none');
+    }
+};*/
