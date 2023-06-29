@@ -52,7 +52,9 @@
 
 /*Mobile*/
 @media (max-width: 425px) {
-    .skills__box{
+
+    .skills__box {
         width: 150px;
     }
+    
 }
