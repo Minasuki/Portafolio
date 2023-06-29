@@ -115,22 +115,34 @@
 /*Mobile*/
 @media (max-width: 425px) {
 
-    /*Menu*/
+    .academic__title {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
 
-    /*Titulo*/
+    .academic__courses {
+        flex-direction: column;
+    }
 
-    /*Sección sobre mi*/
+    .academic__courses__box {
+        width: 95%;
+        align-items: center;
+    }
 
-    /*Skills*/
+    .academic__courses__list {
+        width: 100%;
+    }
 
-    /*Hobbies*/
+    .academic__courses__item__img {
+        width: 330px;
+    }
 
-    /*Formación Académica*/
+    .academic__courses__item__title {
+        text-align: start;
+    }
 
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
+    .academic__courses__item__subtitle {
+        text-align: start;
+    }
 
 }
