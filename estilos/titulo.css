@@ -80,9 +80,10 @@
     .title__profile {
         display: flex;
         justify-content: flex-start;
-        margin-left: 1rem;
+        margin-left: 0;
     }
     .title__network{
-        width: 100%;
+        width: 85%;
     }
+
 }

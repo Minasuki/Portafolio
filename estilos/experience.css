@@ -139,42 +139,27 @@
         flex-direction: column-reverse;
     }
 
-    .experience__section__title{
+    .experience__section__title {
         font-size: x-large;
     }
 
-    .experience__title{
+    .experience__title {
         font-size: large;
     }
 
-    .experience__text{
+    .experience__text {
         font-size: medium;
     }
 
-    .btn{
-        font-size:medium;
+    .btn {
+        font-size: medium;
     }
 }
 
 /*Mobile*/
 @media (max-width: 425px) {
-
-    /*Menu*/
-
-    /*Titulo*/
-
-    /*Sección sobre mi*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
-
+    .experience__box {
+        width: 90%;
+        margin-bottom: 0;
+    }
 }
