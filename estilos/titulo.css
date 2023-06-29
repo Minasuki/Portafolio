@@ -13,9 +13,11 @@
     flex-direction: row-reverse;
     width: 80%;
 }
-.title__profile{
+
+.title__profile {
     border-radius: 50%;
 }
+
 .title__container {
     display: flex;
     align-items: center;
@@ -69,22 +71,18 @@
 /*Mobile*/
 @media (max-width: 425px) {
 
-    /*Menu*/
+    .title__div {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 
-    /*Titulo*/
-
-    /*Sección sobre mi*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
-
+    .title__profile {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+    .title__network{
+        width: 100%;
+    }
 }
