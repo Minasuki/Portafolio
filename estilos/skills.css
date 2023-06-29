@@ -16,6 +16,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skills__box {
@@ -42,31 +44,15 @@
 
 @media (max-width: 768px) {
 
-    .skills__title{
-    font-size: x-large;
-}
+    .skills__title {
+        font-size: x-large;
+    }
 
 }
 
 /*Mobile*/
 @media (max-width: 425px) {
-
-    /*Menu*/
-
-    /*Titulo*/
-
-    /*Sección sobre mi*/
-
-    /*Skills*/
-
-    /*Hobbies*/
-
-    /*Formación Académica*/
-
-    /*Experiencia Profesional*/
-
-    /*Contacto*/
-
-    /*Footer*/
-
+    .skills__box{
+        width: 150px;
+    }
 }
