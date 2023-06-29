@@ -44,5 +44,12 @@
 /*Mobile*/
 @media (max-width: 425px) {
 
-
+    .about__container{
+        width: 90%;
+        text-align: start;
+    }
+.about__title{
+    justify-content: flex-start;
+padding-bottom: 0.5rem;
+}
 }

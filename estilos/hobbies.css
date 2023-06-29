@@ -43,31 +43,12 @@
 
 
 @media (max-width: 768px) {
-.hobbies__title{
-    height: 1.5rem;
-    font-size: x-large;
+    .hobbies__title {
+        height: 1.5rem;
+        font-size: x-large;
+    }
 }
-    }
+
+@media (max-width: 425px) {
     
-    /*Mobile*/
-    @media (max-width: 425px) {
-    
-        /*Menu*/
-    
-        /*Titulo*/
-    
-        /*Sección sobre mi*/
-    
-        /*Skills*/
-    
-        /*Hobbies*/
-    
-        /*Formación Académica*/
-    
-        /*Experiencia Profesional*/
-    
-        /*Contacto*/
-    
-        /*Footer*/
-    
-    }
+}
